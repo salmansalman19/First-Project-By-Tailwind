@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/output.css">
 </head>
 <body>
 <header>
-    <div class="container mx-auto px-8 py-4 flex justify-between items-center shadow">
+    <div class="container bg-white fixed z-50 mx-auto px-8 py-4 flex justify-between items-center shadow">
         <div class="logo ">
            <h1 class="text-xl font-bold">FASCO</h1>
         </div>
-        <div class="list">
+        <div class="list hidden md:block ">
             <ul class="flex gap-14.5">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Deals</a></li>
@@ -21,11 +22,31 @@
                 <li><a href="#">Sign in</a></li>
                
         </div>
+        <div class=" md:hidden"><i class="fa-solid fa-bars-staggered"></i></div>
+        
         <div class="btn">
             <button class=" px-4 py-2 bg-black text-white rounded">Sign up</button>
             
         </div>
     </div>
 </header>
+<section class="flex pt-19 justify-center">
+    <div>
+        <img src="assets/imegs/image.png" alt="">
+    </div>
+    <div class="flex flex-col gap-5 md:gap-15 ">
+        <img src="assets/imegs/ss.png" alt="">
+        <div class="flex flex-col items-center text-center">
+        <img src="assets/imegs/ultimate.svg" alt="">
+        <img src="assets/imegs/sale.svg" alt="">
+        <img src="assets/imegs/NEW COLLECTION.svg" alt="">
+        <button class=" px-4 py-2 bg-black text-white rounded">SHOP NOW</button>
+        </div>
+        <img src="assets/imegs/images (1).png" alt="">
+    </div>
+    <div>
+        <img src="assets/imegs/images.png" alt="">
+    </div>
+</section>
 </body>
 </html>
